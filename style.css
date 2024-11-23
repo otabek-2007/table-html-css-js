@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    margin: 100px 20px;
+    top: 50%;
+}
+
+#scheduleTable {
+    display: grid;
+    grid-template-columns: auto repeat(21, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.time-header {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.color-row {
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.event.pink {
+    background-color: #f97ea5;
+}
+
+.event.green {
+    background-color: green;
+}
+
+.event.orange {
+    background-color: #503022;
+}
+
+.event.teal {
+    background-color: #043232;
+}
+
+.row {
+    display: contents;
+}
+
+.time-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px 5px;
+}
+
+.color-row {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #ddd;
+    height: 100%;
+}
+
+.event:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.time-header.gray {
+    color: gray;
+}
+
+.time-header.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.inner-div {
+    text-align: left;
+    padding: 7px;
+    font-size: 12px;
+    width: 85%;
+    height: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.room-number {
+    font-weight: bold;
+    display: inline-flex;
+    gap: 0px 3px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+.event-name {
+    font-size: 11px;
+    color: black;
+}
+
+.teacher-name {
+    color: black;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.extra-info {
+    font-size: 10px;
+    color: black;
+}
+
+.header-right {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.even-days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.even-days a {
+    text-decoration: none;
+    border-bottom: 3px solid #669aa7;
+    color: #e8cebe;
+}
+
+.dumaloq {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #3cd7af;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horizontal {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.top {
+    height: 50%;
+    width: 100%;
+    background-color: #f2776b;
+}
+
+.bottom {
+    height: 50%;
+    width: 100%;
+    background-color: #3cdeb6;
+}
