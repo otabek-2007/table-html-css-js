@@ -131,7 +131,9 @@ body {
     font-size: 10px;
     color: black;
 }
-
+.header{
+    margin-bottom: 20px;
+}
 .header-right {
     display: inline-flex;
     gap: 10px;
