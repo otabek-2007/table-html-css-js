@@ -7,7 +7,8 @@ const data = [
 
     { id: 4, category: "Brown", name: "General English", teacher: "Nazarova Maftuna", room_number: "Ke-20 [Wh2]", color: "#503022", start_time: "14:00", end_time: "15:30", extra: "10 sep - 10 may" },
 
-    { id: 5, category: "Pink", name: "IELTS", teacher: "Dilnoza", room_number: "Ke-20 [Wh2]", color: "#f97ea5", start_time: "17:30", end_time: "19:00", extra: "9 nov - 6 dec" }
+    { id: 5, category: "Pink", name: "IELTS", teacher: "Dilnoza", room_number: "Ke-20 [Wh2]", color: "#f97ea5", start_time: "9:30", end_time: "11:00", extra: "9 nov - 6 dec" },
+    { id: 6, category: "Pink", name: "IELTS", teacher: "Dilnoza", room_number: "Ke-20 [Wh2]", color: "#f97ea5", start_time: "17:30", end_time: "19:00", extra: "9 nov - 6 dec" }
 ];
 
 function generateTimeSlots(start, end) {
